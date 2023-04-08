@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  /* Нужно проверить свойство заднего фона  */
+  background: linear-gradient(to right, red, rgb(4, 139, 208));
+}
+  /* Проверить название класса  */
+div{
+  margin-top: 100px;
+  margin-left:40px ;
+  margin-right: 40px;
+/* Проверить свойство width  */
+  width: 30%;
+  border: 5px solid white;
+  border-radius: 40px;
+  /* Проверить свойство box  */
+  box-shadow: 0 0 20px white;
+  transition-duration: 1s;
+  transition: 2s;
+}
+p{
+  text-shadow: 0 0 10px white;
+  background-color: black;
+}
+/* Проверить свойство наведение  */
+div:hover{
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: darkgreen;
+  text-shadow: 0 0 10px white;
+/* Проверить свойство transform  */
+  transform:rotate(-360deg);
+}
+
+.img{
+  width:100% ;
+  height: 200;
+}
